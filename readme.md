@@ -58,7 +58,7 @@ $ npm run dev
 
 ### Autor
 
-- Marcelo Ribeiro
+Marcelo Ribeiro
 
 ### Licença
 
