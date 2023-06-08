@@ -17,7 +17,7 @@
 ### Features
 
 - [x] Commit init
-- [ ]
+- [ ] feat: criando arquivo de config DB
 - [ ]
 
 ### Pré-requisitos e como rodar a aplicação/testes
