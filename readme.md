@@ -52,6 +52,8 @@ $ npm run dev
 -[Node.js](https://nodejs.org/en/)
 - Express
 - Sucrase
+- Eslint
+- Pretier
 - Nodemon
 - Sequelize
 - Postgres
