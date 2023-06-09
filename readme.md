@@ -21,6 +21,7 @@
 - [x] Feat: criando migration de users
 - [x] Feat: criando mo model user
 - [x] Feat: conexao do BD com os models
+- [x] test: testando conexao com banco
 
 ### Pré-requisitos e como rodar a aplicação/testes
 
