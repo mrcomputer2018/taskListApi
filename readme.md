@@ -17,8 +17,8 @@
 ### Features
 
 - [x] Commit init
-- [ ] feat: criando arquivo de config DB
-- [ ]
+- [x] feat: criando arquivo de config DB
+- [x] Feat: Criando migration de users
 
 ### Pré-requisitos e como rodar a aplicação/testes
 
