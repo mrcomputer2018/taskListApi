@@ -19,6 +19,7 @@
 - [x] Commit init
 - [x] feat: criando arquivo de config DB
 - [x] Feat: Criando migration de users
+- [x] Feat: criando mo model user
 
 ### Pré-requisitos e como rodar a aplicação/testes
 
