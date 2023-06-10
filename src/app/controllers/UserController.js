@@ -17,6 +17,19 @@ class UserController {
 
             return res.json({ id, name, email });
         } catch (error) {
+            // eslint-disable-next-line no-console
+            console.log({ error: error.message });
+        }
+    }
+
+    // eslint-disable-next-line consistent-return
+    async update(req, res) {
+        try {
+            // eslint-disable-next-line no-console
+            console.log(`>>>> url: ${req.url}`);
+            return res.json({ ok: true });
+        } catch (error) {
+            // eslint-disable-next-line no-console
             console.log({ error: error.message });
         }
     }

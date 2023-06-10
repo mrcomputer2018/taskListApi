@@ -25,6 +25,7 @@
 - [x] feat: cadastro de usuarios
 - [x] feat: implementando hash na senha
 - [x] feat: autenticacao JWT
+- [x] feat: middleware de autenticacao
 
 ### Pré-requisitos e como rodar a aplicação/testes
 
@@ -57,6 +58,7 @@ $ yarn dev
 ### Tecnologias utilizadas
 
 -[Node.js](https://nodejs.org/en/)
+
 - Express
 - Sucrase
 - Eslint
