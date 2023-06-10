@@ -22,6 +22,8 @@
 - [x] Feat: criando mo model user
 - [x] Feat: conexao do BD com os models
 - [x] test: testando conexao com banco
+- [x] feat: cadastro de usuarios
+- [x] feat: implementando hash na senha
 
 ### Pré-requisitos e como rodar a aplicação/testes
 
@@ -45,6 +47,7 @@ $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
+$ yarn dev
 
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 

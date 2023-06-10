@@ -5,7 +5,7 @@ class UserController {
     async store(req, res) {
         try {
             const userExists = await User.findOne({
-                Where: { email: req.body.email },
+                where: { email: req.body.email },
             });
 
             if (userExists) {
