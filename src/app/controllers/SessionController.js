@@ -3,12 +3,16 @@ import dotenv from 'dotenv';
 
 import User from '../models/User';
 
+import authConfig from '../../config/auth';
+
 dotenv.config();
 
 class SessionController {
     // eslint-disable-next-line consistent-return
     async store(req, res) {
         try {
+            // eslint-disable-next-line no-console
+            console.log(`>>>> url: ${req.url}`);
             const { email } = req.body;
             const { password } = req.body;
 
@@ -36,8 +40,8 @@ class SessionController {
                     email,
                 },
                 // payload - senha secreta - configuracoes
-                token: jwt.sign({ id }, process.env.MD5, {
-                    expiresIn: '7d',
+                token: jwt.sign({ id }, authConfig.secret, {
+                    expiresIn: authConfig.expiresIn,
                 }),
             });
         } catch (error) {
