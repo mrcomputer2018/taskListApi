@@ -24,6 +24,7 @@
 - [x] test: testando conexao com banco
 - [x] feat: cadastro de usuarios
 - [x] feat: implementando hash na senha
+- [x] feat: autenticacao JWT
 
 ### Pré-requisitos e como rodar a aplicação/testes
 
@@ -63,6 +64,8 @@ $ yarn dev
 - Nodemon
 - Sequelize
 - Postgres
+- Bcryptjs
+- [JWT](https://jwt.io/)
 
 ### Autor
 
