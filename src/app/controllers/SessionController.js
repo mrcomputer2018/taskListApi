@@ -27,7 +27,7 @@ class SessionController {
             }
 
             // verificando se este password não esta correto
-            if (!(await user.checkPaswword(password))) {
+            if (!(await user.checkPassword(password))) {
                 return res.status(401).json({ error: 'Senha incorreta.' });
             }
 
