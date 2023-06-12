@@ -26,6 +26,9 @@
 - [x] feat: implementando hash na senha
 - [x] feat: autenticacao JWT
 - [x] feat: middleware de autenticacao
+- [x] feat: atualizando pefil  de usuario
+- [x] feat: validando campos
+- [x] feat: migration e moodel de tarefas
 
 ### Pré-requisitos e como rodar a aplicação/testes
 
