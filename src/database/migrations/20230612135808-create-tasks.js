@@ -8,7 +8,7 @@ module.exports = {
                 primaryKey: true,
             },
             task: {
-                type: Sequelize.INTEGER,
+                type: Sequelize.STRING,
                 allowNull: false,
             },
             check: {

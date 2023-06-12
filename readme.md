@@ -29,6 +29,7 @@
 - [x] feat: atualizando pefil  de usuario
 - [x] feat: validando campos
 - [x] feat: migration e moodel de tarefas
+- [x] feat: criar e listar tarefas
 
 ### Pré-requisitos e como rodar a aplicação/testes
 
