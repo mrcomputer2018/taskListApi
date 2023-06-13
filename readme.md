@@ -30,6 +30,7 @@
 - [x] feat: validando campos
 - [x] feat: migration e moodel de tarefas
 - [x] feat: criar e listar tarefas
+- [x] feat: conclusão de tarefas
 
 ### Pré-requisitos e como rodar a aplicação/testes
 
