@@ -12,7 +12,7 @@
 
 ### Status do Projeto
 
-- em desenvolvimento.
+- Finalizado.
 
 ### Features
 
